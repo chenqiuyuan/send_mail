@@ -4,10 +4,12 @@
 import datetime
 import smtplib
 from email.mime.image import MIMEImage
+
 import email.MIMEBase
 import email.MIMEMultipart
 import email.MIMEText
-import os
+
+from test_code import os
 
 
 def addimg(src,imgid):
@@ -54,7 +56,7 @@ def send(TO):
         server = smtplib.SMTP()
         server.connect(HOST,"25")
         server.starttls()
-        server.login("380133194@qq.com","password")
+        server.login("380133194@qq.com","caffvykckhbtbheb")
         server.sendmail(FROM, TO, main_msg.as_string())
         server.quit()
         print "邮件发送成功！"
