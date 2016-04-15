@@ -8,8 +8,7 @@ from email.mime.image import MIMEImage
 import email.MIMEBase
 import email.MIMEMultipart
 import email.MIMEText
-
-from test_code import os
+import os
 
 
 def addimg(src,imgid):
