@@ -7,7 +7,7 @@ driver.get("http://www.sse.com.cn/market/sseindex/overview/")
 element = driver.find_element_by_xpath('/html/body/div[7]/div[2]/div[2]/div[2]/div/div[1]/div/div[2]/div[2]')
 # element = driver.find_element_by_xpath('//*[@id="tableData_introduction"]')
 # element = driver.find_element_by_xpath('//*[@id="tableData_introduction"]/div[2]/table')
-time.sleep(1)
+time.sleep(2)
 x = element.text
 y = x.split()
 name = y[0]
