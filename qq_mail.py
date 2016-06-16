@@ -55,7 +55,7 @@ def send(TO):
         server = smtplib.SMTP()
         server.connect(HOST,"25")
         server.starttls()
-        server.login("380133194@qq.com","rtfspolpqjdtbgea")
+        server.login("380133194@qq.com","nbmarawlsffxbghe")
         server.sendmail(FROM, TO, main_msg.as_string())
         server.quit()
         print "邮件发送成功！"
