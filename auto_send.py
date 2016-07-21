@@ -8,3 +8,4 @@ def exe():
     qq_mail.send('henry.duye@gmail.com')
     qq_mail.send('ycbillows@qq.com')#
     # print 123
+# exe()

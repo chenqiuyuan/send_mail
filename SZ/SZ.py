@@ -27,3 +27,4 @@ def exe():
 
     f.close()
     print x
+exe()
